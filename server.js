@@ -9,6 +9,6 @@ app.use(express.static(path.join(__dirname,'./client')));
 require('./server/config/mongoose.js');
 require('./server/config/routes.js')(app);
 
-app.listen(5000, function(){
-	console.log("running on port 5000");
+app.listen(8000, function(){
+	console.log("running on port 8000");
 });
